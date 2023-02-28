@@ -16,9 +16,6 @@ function tabuada(){
         item.value = `tab${c}`
         tab.appendChild(item)
         c++
-    setTimeout(() => {
-        option =  "";
-    },5000)
     }
   }
 }
