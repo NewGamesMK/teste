@@ -11,7 +11,7 @@ header{
     border-radius: 5px;
     box-shadow: 2px 2px white;
     margin-bottom: 50px;
-    margin-left: 368pt;
+    margin-left: 400pt;
     margin-right: 300pt;
     width: 300px;
     
@@ -23,4 +23,59 @@ section{
     width: 500px;
     margin: auto;
     box-shadow: 3px 3px 10px black
+}
+div{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 17px;
+}
+
+input{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 16px;
+}
+.campo{
+    border-color: #ccc;
+    border-radius: 5px;
+    background-color: rgb(243, 240, 240);
+    outline: 0;
+}
+select{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+    background-color: #eceaea ; 
+    color: rgb(107, 105, 105);
+    outline: 0;
+    margin-top: 10px;
+    padding: 15px;
+    border-radius: 3px;
+
+}
+input{
+    padding: 3px;
+    border: 1px solid black;
+}
+.button{ 
+    border: 0px;
+    padding: 3px;
+    outline: 0;
+    background-color: lightblue;
+    color: black;
+    border-radius: 3px;
+    font-weight: bold;
+    transition: all ease 0.3s;
+    cursor: pointer;
+}
+.button:hover{
+    background-color: rgb(146, 188, 202);
+}
+footer{
+    font-size: 13px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 30px;
+    text-align: center;
+
+}
+img{
+    width: 150px;
+    height: 150px;
 }
